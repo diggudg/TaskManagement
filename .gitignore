@@ -1,0 +1,56 @@
+# Ignore .NET build artifacts
+backend/bin/
+backend/obj/
+
+# Ignore Rider and Visual Studio Code settings
+.idea/
+.vscode/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore build output
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+
+# Ignore node_modules and build artifacts for frontend
+frontend/node_modules/
+frontend/build/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+*.env
+.env.*
+
+# Ignore coverage reports
+coverage/
+frontend/coverage/
+
+# Ignore frontend specific files
+frontend/.next/
+frontend/.nuxt/
+frontend/dist/
+frontend/out/
+frontend/.cache/
+frontend/.eslintcache
+frontend/.parcel-cache/
+frontend/.sass-cache/
+frontend/.vuepress/dist/
+frontend/.yarn-cache/
+frontend/.yarn/
+
+# Ignore lock files
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# Ignore miscellaneous files
+.DS_Store
+Thumbs.db

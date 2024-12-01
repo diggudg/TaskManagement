@@ -1,0 +1,13 @@
+services:
+  webapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: backend
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./app.db:/app/app.db
+    environment:
+      - ASPNETCORE_URLS=http://+:5001;
+      - ASPNETCORE_ENVIRONMENT=Development
